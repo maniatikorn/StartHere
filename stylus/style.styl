@@ -1,0 +1,223 @@
+@import 'normalize.styl'
+@import 'fonts.styl'
+
+cremita = #F8F3FA
+azul = #17252E
+gris = #949A8C
+gris_claro = #D8D9DD
+rClaro = #B73137
+rOscuro = #A51318
+a
+	color rClaro
+	&:hover
+		color azul
+
+body
+	background-color: white
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px
+
+header
+	background: cremita
+	border-bottom: 1px black solid
+	height: auto
+	margin: 0
+	padding: 0
+
+h1
+	background-color: cremita
+	color rOscuro
+	display: inline-block
+	font-size: 3rem
+	margin 0 .6em
+	padding: 0 0
+
+h2
+	border-top 2px solid azul
+	display: inline-block
+	font-size: 1em
+	margin 0 .6em
+	padding: 0 0
+
+section
+	text-align center
+	&.square
+		&.link2
+			vertical-align center
+
+.block0
+	display none
+
+.Click
+	font-size 1.1em
+	color cremita
+	&:hover
+		color rOscuro
+
+#disqus_thread
+	margin auto
+	width 95%
+
+.link2
+	color azul
+	display inline-block
+	font-size 1.2em
+	padding .5em 0
+
+.logo
+	margin auto
+	padding .5em 0
+	text-align center
+
+.medio
+	color azul
+	display inline-block
+	margin 0
+	padding 0
+
+.mesage
+	display block
+
+.how
+	background-color: gris_claro
+	display none
+	/*display: inline-block*/
+	font-size 1.2rem
+	margin: 0 
+	padding: 0
+	text-align center
+	width 100%
+
+.linkSqare
+	color azul
+	font-size 5.5em
+	margin 0
+	padding 0
+	text-align center
+	text-decoration none
+	vertical-align middle
+	&:hover
+		color rClaro
+
+.square
+	background-color: gris_claro
+	boder 5px solid azul
+	border-radius 4px
+	display: inline-block
+	font-size 1em
+	height auto
+	height: 120px
+	margin: .5em
+	padding: .5em
+	text-align: center
+	width: 118px
+	
+.bookmarkIn
+	background-color rClaro
+	color: cremita
+	display: block
+	font-size: 2em
+	margin: auto
+	padding: .4em .3em
+	text-align: center
+	
+.bookmark
+	display inline-block
+	margin 0
+	padding 0
+	width 100%
+
+@media screen and (min-width: 760px)
+
+	header
+		border-bottom 3px solid azul
+
+	.block0
+		background-image url("../images/hotairballoons1.jpg")
+		/*background rClaro*/
+		border-radius 5px
+		color cremita
+		display block
+		float right
+		font-size 1.5em
+		height 700px
+		margin .3em .5em 1em 0em
+		padding 0
+		width 20%
+
+	.block1
+	.block2
+		display inline-block	
+		padding 1.5em .5em
+		width 73%
+
+	.bookmark
+		background-color rClaro
+		display inline-block
+		margin .3em 1em
+		width 70%
+
+	.bookmarkIn
+		background-color rClaro
+
+	.mesage
+		display none
+
+	.twitter
+	.facebook
+		background azul
+		border-radius 500px
+		display inline-block
+		font-size 2em
+		height 50px	
+		margin .3em
+		overflow hidden
+		padding .3em
+		text-align center
+		vertical-align center
+		width 50px
+		&:hover
+			background-color cremita
+			color azul
+
+	.transparencia
+		background rgba(0, 0, 0, .5)
+		border-radius 4px
+		width 100%
+
+@media screen and (min-width: 1000px)
+
+	body
+		background-color cremita
+		text-align center
+
+	.bookmarkIn
+		background-color azul
+		border-bottom 8px rClaro solid
+		color cremita
+		font-size 1.5em
+
+	.logo
+		display inline-block
+		margin 1em
+		text-align left
+
+	.how
+		background-color rClaro
+		color cremita
+		display inline-block
+		float right
+		font-size 1.3em
+		margin 1.5em 6em 0 0
+		padding .3em
+		width 400px
+
+	.block0
+	.transparencia
+		display none
+		
+
+
+
+
+
